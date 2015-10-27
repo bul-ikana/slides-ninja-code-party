@@ -1,0 +1,48 @@
+img {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.thumbs img{
+	max-width: 16% !important;
+	max-height: 16% !important;
+	padding: 11px;
+}
+
+.col {
+  float: left;
+  width: 50%;
+}
+.col.preview {
+  width: 35%;;
+}
+.col.code {
+  width: 65%;
+  text-align: left;
+}
+.col.code > * {
+  margin-left: 40px;
+}
+
+.reveal .demo-frame {
+  background: url('../img/demo-bg.png') no-repeat;
+  background-size: 340px;
+  height: 820px;
+  margin-top: -20px;
+  margin-left: -15px;
+  min-width: 345px;
+}
+
+.reveal .demo-frame iframe {
+  position: absolute;
+  left: 13px;
+  top: 104px;
+  width: 287px;
+  height: 509px
+}
+
+.me{
+	-webkit-border-radius: 30px;
+-moz-border-radius: 30px;
+border-radius: 30px;
+}
